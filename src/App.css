@@ -1,0 +1,140 @@
+body {
+  color: #333;
+}
+
+.App a.btn.btn-theme {
+  background: #05C896;
+  color: #fff;
+  border-radius: 50px;
+  padding: 10px 40px;
+  border: 2px solid #05C896;
+}
+
+.App a.btn.btn-theme:hover {
+  background: #fff;
+  color: #05C896;
+  outline: none;
+}
+
+.App p {
+  font-weight: 500;
+  color: #333333ad;
+}
+
+.App h2.section-heading {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.App a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.App h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.App svg {
+  width: 1.5rem;
+}
+
+.App .navbar {
+  padding: 20px 0;
+  border-bottom: 1px solid #05c89640;
+}
+
+.App .navbar h2 {
+  font-size: 30px;
+}
+
+.App .navbar .navbar-toggler {
+  outline: 0;
+  width: 55px;
+  height: 40px;
+}
+
+.App .navbar .navbar-toggler :focus {
+  outline: 0;
+}
+
+.App .navbar .navbar-collapse li a {
+  font-size: 18px;
+}
+
+.App .navbar .navbar-collapse li:hover a {
+  color: #05C896;
+}
+
+.App .navbar .navbar-collapse li.active a {
+  color: #05C896;
+}
+
+.App .homepage .card {
+  border: solid 1px #f5f5f5;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.App .homepage .card .card-body p {
+  font-size: 14px;
+}
+
+.App .homepage .card:hover {
+  -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.App .docs .card {
+  position: relative;
+  border: solid 1px #f5f5f5;
+  -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  -webkit-transition: all .4s;
+  transition: all .4s;
+  cursor: pointer;
+}
+
+.App .docs .card .copy {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.App .docs .card h5 {
+  color: #05C896;
+}
+
+.App .docs .card:hover {
+  -webkit-box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+          box-shadow: 0 10px 35px rgba(0, 0, 0, 0.12);
+}
+
+.App .footer ul {
+  padding: 0;
+}
+
+.App .footer ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.App .footer ul li a {
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.App .footer ul li a:hover {
+  color: #05C896;
+}
+
+.App .call-to-action h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+/*# sourceMappingURL=App.css.map */
